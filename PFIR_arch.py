@@ -347,7 +347,7 @@ class Backbone(nn.Module):
 
 
 @ARCH_REGISTRY.register()
-def SFHformer_l():
+def PFIR():
     return Backbone(
         patch_size=1,
         embed_dim=[32, 64, 128, 64, 32],
